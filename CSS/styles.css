@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html, body {
+    margin:     0;
+    padding:    0;
+    height:     100%;
+    width:      100%;
+}
+
+h1{
+    color: #FF0000;
+    font-size: 50pt;
+    font-family: 'Bebas Neue', cursive;
+    height:50vh;
+    display: flex; 
+    justify-content: center;
+}
+
+    
+header { 
+    color: #FF0000;
+    font-size: 50pt;
+    font-family: 'Bebas Neue', cursive;
+    height: 30vh ;
+    display: flex; 
+    justify-content: center;
+}
+
+h2{
+    color: #FF0000;
+    font-size: 40pt;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h3{
+    color: #0000ff ;
+    font-size: 30pt;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    background-color:#E2E8E5;
+    
+} 
+
+nav{
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    display: flex; 
+    justify-content: flex-end;
+    padding-bottom: 20px ;
+}
+
+nav ul{
+    list-style-type:none; 
+    display: flex; 
+    justify-content: flex-end;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+nav ul li{
+    min-width: 200px;
+    text-align: center;
+}
+
+nav a{
+    display: block;
+    text-decoration: none ;
+    color: black;
+    width: 80px ;
+    
+}
+
+nav a:hover{
+    color: #4682B4; 
+}
+
+article {
+    width:          40%;
+    min-width:      400px;
+    background-color: white;
+    opacity:        0.9;
+    border-radius:  10px ;
+    font-family: 'Yantramanav', sans-serif;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    border: 10px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em ;
+    text-align: center ;
+}
+
+.imgmariobros {
+    width: 40%;
+    min-width: 400px;
+    border: 10px solid white;
+    box-shadow: 10px 10px 10px grey;
+    margin-right: auto ;
+}
+
+.imgmariokart {
+    width: 40%;
+    min-width: 400px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 10px grey;
+    margin-right: auto;
+}
+
+.imgaccueil {
+    width: 15%;
+    min-width: 150px;
+}
+
+section {
+    display: flex ;
+    flex-direction : row ;
+    justify-content: space-around;
+    align-items:   center;
+}
+
+div {
+    text-align: center;
+    padding-bottom: 50px;
+}
+        
+footer { 
+    height: 50px;
+    background-color: #333333;
+    color : white ;
+    display: flex; 
+    justify-content: center ;
+}
+
+
